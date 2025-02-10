@@ -1,0 +1,138 @@
+/* Full-page background color (Creamy Contrast) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #FFF5E1; /* Creamy background */
+    color: #333; /* Dark gray text */
+}
+
+/* Form background with a soft pastel blue */
+form {
+    background: #E3F2FD; /* Light pastel blue */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Headings color */
+h2 {
+    text-align: center;
+    color: #3A5A88; /* Muted blue */
+}
+
+/* Label text color */
+label {
+    display: block;
+    margin-top: 10px;
+    color: #333; /* Dark gray */
+}
+
+/* Input fields, dropdowns, and textarea styling */
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #ffffff; /* White background */
+}
+
+/* Adjusted inline fields */
+.inline {
+    width: 48%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.middle-initial {
+    width: 10%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.dob, .zip-code {
+    width: 48%;
+    display: inline-block;
+    margin-right: 4%;
+}
+
+/* Checkbox group styling */
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-group label {
+    width: 50%;
+    color: #333;
+}
+
+/* Buttons styling */
+button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.submit {
+    background: #A8D5BA; /* Pastel green */
+    color: white;
+}
+
+.reset {
+    background: #F4A8A8; /* Pastel red */
+    color: white;
+}
+
+/* Hyperlink colors */
+a {
+    color: #4A90E2; /* Soft blue */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #6C757D; /* Muted gray */
+}
+
+/* Date display (top right) */
+.date-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3A5A88; /* Muted blue */
+}
+
+/* New styles for header and footer */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+h1 {
+    color: #3A5A88; /* Muted blue to match h2 */
+}
